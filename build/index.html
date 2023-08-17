@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="relative grid min-h-screen bg-pale-blue place-items-center font-red-hat"
+  >
+    <div
+      class="md:bg-[url(../images/pattern-background-desktop.svg)] bg-[url(../images/pattern-background-mobile.svg)] h-[194px] md:h-[437px] w-full absolute top-0 -z-10"
+    ></div>
+
+    <main
+      class="bg-white rounded-2xl w-[26rem] overflow-hidden shadow-css-scan-12"
+    >
+      <section
+        class="bg-[url(../images/illustration-hero.svg)] w-full h-44 bg-cover bg-center"
+      ></section>
+
+      <section class="py-6 px-8">
+        <h1 class="mb-4 text-3xl font-black text-center text-dark-blue">
+          Order Summary
+        </h1>
+        <p class="mb-4 text-base text-center text-desaturated-blue">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="flex p-4 mb-6 rounded-lg bg-very-pale-blue">
+          <svg xmlns="http://www.w3.org/2000/svg" width="75" height="48">
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
+              <path
+                fill="#717FA6"
+                fill-rule="nonzero"
+                d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"
+              />
+            </g>
+          </svg>
+          <div class="flex flex-col mr-auto">
+            <span class="text-base font-black text-dark-blue">Annual Plan</span
+            ><span class="text-desaturated-blue"> $59.99/year</span>
+          </div>
+          <span
+            class="self-center text-sm font-bold underline cursor-pointer text-bright-blue hover:no-underline hover:text-desaturated-blue"
+            >Change</span
+          >
+        </div>
+        <button
+          class="w-full py-3 mb-4 text-sm font-bold shadow-css-scan-73 rounded-xl bg-bright-blue text-very-pale-blue hover:bg-desaturated-blue"
+        >
+          Proceed to Payment
+        </button>
+        <button
+          class="block py-3 m-auto text-sm font-bold text-desaturated-blue hover:text-dark-blue"
+        >
+          Cancel Order
+        </button>
+      </section>
+    </main>
+
+    <aside class="absolute hidden">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </aside>
+  </body>
+</html>
