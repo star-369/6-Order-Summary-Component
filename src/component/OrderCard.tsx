@@ -3,18 +3,18 @@ export default function OrderCard() {
     <>
       <div className="xl:bg-[url('../assets/images/pattern-background-desktop.svg')] bg-[url('../assets/images/pattern-background-mobile.svg')] h-[194px] xl:h-[437px] w-full absolute left-0 top-0 -z-10"></div>
 
-      <main className="bg-white rounded-2xl w-[320px] overflow-hidden shadow-css-scan-12">
-        <section className="bg-[url('../assets/images/illustration-hero.svg')] w-full h-40 bg-cover bg-center"></section>
+      <main className="bg-white rounded-2xl w-[320px] overflow-hidden shadow-css-scan-12 xl:w-[400px]">
+        <section className="bg-[url('../assets/images/illustration-hero.svg')] w-full h-40 xl:h-48 bg-cover bg-center"></section>
 
         <section className="p-8 ">
           <h1 className="text-2xl font-black text-center text-dark-blue">
             Order Summary
           </h1>
-          <p className="my-4 text-center text-desaturated-blue">
+          <p className="my-4 text-center xl:my-6 text-desaturated-blue">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
-          <div className="flex items-center gap-4 p-4 text-xs rounded-lg bg-very-pale-blue">
+          <div className="flex items-center gap-4 p-4 text-xs rounded-lg xl:gap-6 xl:p-6 xl:text-base bg-very-pale-blue">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
               <g fill="none" fill-rule="evenodd">
                 <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
@@ -35,10 +35,10 @@ export default function OrderCard() {
               Change
             </span>
           </div>
-          <button className="w-full py-3 my-4 text-sm font-bold shadow-css-scan-73 rounded-xl bg-bright-blue text-very-pale-blue hover:bg-desaturated-blue">
+          <button className="w-full py-3 my-4 text-sm font-bold xl:py-4 xl:text-base xl:my-6 shadow-css-scan-73 rounded-xl bg-bright-blue text-very-pale-blue hover:bg-desaturated-blue">
             Proceed to Payment
           </button>
-          <button className="block py-3 m-auto text-sm font-bold text-desaturated-blue hover:text-dark-blue">
+          <button className="block py-3 m-auto text-sm font-bold xl:py-4 xl:text-base text-desaturated-blue hover:text-dark-blue">
             Cancel Order
           </button>
         </section>
